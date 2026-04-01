@@ -1,14 +1,14 @@
-#[+] PentestAI FIXED ishga tushdi: https://target.com 
+[+] PentestAI FIXED ishga tushdi: https://target.com 
 
-#[*] 1. RECON...  ←←← BU YERDA TURIB TURIBDI = REAL SCAN JARYANDA!
+[*] 1. RECON...  ←←← BU YERDA TURIB TURIBDI = REAL SCAN JARYANDA!
 
-#⏳ Subfinder → target.com subdomains qidiryapti (subdomen.target.com topadi)
+⏳ Subfinder → target.com subdomains qidiryapti (subdomen.target.com topadi)
 
-#⏳ Gobuster → DNS enum  
+⏳ Gobuster → DNS enum  
 
-#⏳ FFUF → /admin, /api, /backup, /search-admin fuzz qilyapti
+⏳ FFUF → /admin, /api, /backup, /search-admin fuzz qilyapti
 
-#Recon:        2-3 daqiqa  (subdomains + dirs)
+Recon:        2-3 daqiqa  (subdomains + dirs)
 #Nmap:         1-2 daqiqa  (ports 1-1000)
 #Nuclei:       3-5 daqiqa  (1000+ CVE templates)
 #Web scans:    1-2 daqiqa
