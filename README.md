@@ -1,14 +1,20 @@
-#[+] PentestAI FIXED ishga tushdi: https://target.com  
+#[+] PentestAI FIXED ishga tushdi: https://target.com 
+
 #[*] 1. RECON...  ←←← BU YERDA TURIB TURIBDI = REAL SCAN JARYANDA!
+
 #⏳ Subfinder → target.com subdomains qidiryapti (subdomen.target.com topadi)
+
 #⏳ Gobuster → DNS enum  
+
 #⏳ FFUF → /admin, /api, /backup, /search-admin fuzz qilyapti
+
 #Recon:        2-3 daqiqa  (subdomains + dirs)
 #Nmap:         1-2 daqiqa  (ports 1-1000)
 #Nuclei:       3-5 daqiqa  (1000+ CVE templates)
 #Web scans:    1-2 daqiqa
 #SQLMap:       2-3 daqiqa
 #TOTAL:       ~10-15 daqiqa
+
 #[*] 2. 🛡️ NMAP SCAN...     ← Ports topiladi (80,443,3306?)
 #[*] 3. 💥 NUCLEI CVEs...   ← target.com uchun CVE lar
 #[*] 4. 🌐 WEB VULNS...     ← Nikto + dirsearch
