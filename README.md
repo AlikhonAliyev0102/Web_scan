@@ -1,5 +1,7 @@
 # Web_scan
 WEb app scan. and write repo
+
+# Git clone
 git clone https://github.com/AlikhonAliyev0102/Web_scan.git
 
 # Terminal 1: Agent (ishlayapti)
