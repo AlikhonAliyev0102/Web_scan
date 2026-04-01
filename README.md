@@ -46,6 +46,10 @@ WEb app scan. and write repo
 git clone https://github.com/AlikhonAliyev0102/Web_scan.git
 
 # Terminal 1: Agent (ishlayapti)
+sudo apt install -y nmap nuclei nikto sqlmap ffuf subfinder wkhtmltopdf msfconsole colorama
+sudo apt install python3-venv -y 
+python3 -m venv myenv 
+source myenv/bin/activate  
 python3 aifixagent.py https://target.com -o my_reports
 
 # Terminal 2: Real-time monitoring  
